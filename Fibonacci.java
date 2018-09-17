@@ -1,5 +1,5 @@
 //Write down a program to print the first 10 fibonacci number
-package javaapplication3;
+package javaapplication1;
 
 class Fibonacci{
     private int First=0;
@@ -14,13 +14,10 @@ class Fibonacci{
             First = Second;
             Second = Fib;
         }
-        //To print the last fibonacci number in the series
-        Fib = First+Second;
-        System.out.println();
     }
 }
 
-public class JavaApplication3 {
+public class JavaApplication3{
     public static void main(String[] args) {
         Fibonacci objFib = new Fibonacci();
         objFib.printFibonacci();
